@@ -1,0 +1,7 @@
+#knowledge1
+And((AKnight, BKnave),Not(And(AKnave, BKnight))),
+Or(AKnight, AKnave),Or(BKnight,BKnave),
+    And(AKnight, BKnave), And(AKnave, BKnight),
+    Biconditional(BKnight,
+     Not(AKnight)),
+    Implication(AKnight, And(AKnave, BKnave))
